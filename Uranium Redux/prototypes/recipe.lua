@@ -51,7 +51,12 @@ data:extend(
     enabled = true,
     category = "centrifuging",
     ingredients = {{"uranium-238", 20},{"uranium-235",10}},
-    icon = "__base__/graphics/icons/kovarex-enrichment-process.png",
+    icons =
+    {
+      {
+        "__base__/graphics/icons/kovarex-enrichment-process.png",tint={r=1,g=0,b=0,a=1}
+      }
+    },
     icon_size = 64,
     subgroup = "intermediate-product",
     main_product = "",
