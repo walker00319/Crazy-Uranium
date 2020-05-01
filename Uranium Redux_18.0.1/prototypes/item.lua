@@ -68,6 +68,28 @@ reacta.icons= {
 
 data:extend{reacta}
 
+local fuela = table.deepcopy(data.raw.item["nuclear-fuel"])
+
+fuela.name = "plutonium-fuela"
+fuela.stack_size = 250
+fuela.fuel_category = "chemical"
+fuela.fuel_value = "4GJ"
+fuela.fuel_acceleration_multiplier = 3.8
+fuela.fuel_top_speed_multiplier = 2.3
+fuela.fuel_glow_color = {r = 0.8, g = 0, b = 0}
+fuela.subgroup = "intermediate-product"
+fuela.icons= {
+   {
+      icon=fuela.icon,
+      tint={r=1,g=0,b=0,a=1}
+   },
+}
+
+
+
+
+
+data:extend{fuela}
 
 
 
