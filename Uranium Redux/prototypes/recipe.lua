@@ -54,7 +54,7 @@ data:extend(
     icons =
     {
       {
-        "__base__/graphics/icons/kovarex-enrichment-process.png",tint={r=1,g=0,b=0,a=1}
+        icon="__base__/graphics/icons/kovarex-enrichment-process.png",tint={r=1,g=0,b=0,a=1}
       }
     },
     icon_size = 64,
