@@ -1,8 +1,9 @@
 {
     "name": "CrazyUranium",
-    "version": "3.1.1",
-    "title": "Crazy Uranium",
+    "version": "3.1.2",
+    "title": "Uranium Redux",
     "author": "Walker Dick",
     "factorio_version": "0.18",
-    "description": "Makes the Koravex Enrichment Process Wierd. :)"
+    "source": "https://github.com/walker00319/Uranium-Redux",
+    "description": "Tweaks the base game uranium. Aslo adds Plutonium."
 }
