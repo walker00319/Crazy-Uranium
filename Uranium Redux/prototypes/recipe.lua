@@ -107,7 +107,7 @@ data:extend(
     icons =
     {
       {
-        icon = "__base__/graphics/icons/nuclear-fuel",tint={r=1,g=0,b=0,a=1}
+        icon = "__base__/graphics/icons/nuclear-fuel.png",tint={r=1,g=0,b=0,a=1}
       }
     },
     icon_size = 64, icon_mipmaps = 4,
