@@ -65,7 +65,12 @@ data:extend(
     enabled = true,
     category = "centrifuging",
     ingredients = {{"plutonium-126a", 10},{"iron-plate",10},{"uranium-fuel-cell",2}},
-    icon = "__base__/graphics/icons/uranium-fuel-cell.png",
+    icons =
+    {
+      {
+        icon = "__base__/graphics/icons/uranium-fuel-cell.png",tint={r=1,g=0,b=0,a=1}
+      }
+    },
     icon_size = 64,
     subgroup = "intermediate-product",
     main_product = "",
@@ -79,7 +84,12 @@ data:extend(
     enabled = true,
     category = "centrifuging",
     ingredients = {{"used-up-plutonium-fuel-cella", 5}},
-    icon = "__base__/graphics/icons/nuclear-fuel-reprocessing.png",
+    icons =
+    {
+      {
+        icon = "__base__/graphics/icons/nuclear-fuel-reprocessing.png",tint={r=1,g=0,b=0,a=1}
+      }
+    },
     icon_size = 64, icon_mipmaps = 4,
     subgroup = "intermediate-product",
     order = "r[uranium-processing]-b[nuclear-fuel-reprocessing]",
