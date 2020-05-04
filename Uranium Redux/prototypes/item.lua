@@ -13,21 +13,7 @@ plutonium.icons= {
 
 
 data:extend{plutonium}
-local thorium = table.deepcopy(data.raw.item["uranium-235"])
 
-thorium.name = "thorium-a"
-thorium.icons= {
-   {
-      icon=thorium.icon,
-      tint={r=0,g=0,b=1,a=1}
-   },
-}
-
-
-
-
-
-data:extend{thorium}
 
 local pfuel = table.deepcopy(data.raw.item["uranium-fuel-cell"])
 
