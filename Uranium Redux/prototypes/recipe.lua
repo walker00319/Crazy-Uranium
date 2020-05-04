@@ -121,7 +121,36 @@ data:extend(
     main_product = "",
     results = {{"plutonium-fuela", 5}},
     allow_decomposition = false
-  }
+  },{
+    type = "recipe",
+    name = "uranium-processing",
+    energy_required = 12,
+    enabled = false,
+    category = "centrifuging",
+    ingredients = {{"uranium-ore", 10}},
+    icon = "__base__/graphics/icons/uranium-processing.png",
+    icon_size = 64, icon_mipmaps = 4,
+    subgroup = "raw-material",
+    order = "k[uranium-processing]", -- k ordering so it shows up after explosives which is j ordering
+    results =
+    {
+      {
+        name = "uranium-235",
+        probability = 0.3,
+        amount = 1
+      },
+      {
+        name = "uranium-238",
+        probability = 0.3,
+        amount = 1
+      },
+      {
+        name = "plutonium-126a",
+        probability = 0.3,
+        amount = 1
+      }
+    }
+  },
 
 }
 )
